@@ -12,7 +12,7 @@ df_data['Valor de Venda'] = df_data['Valor de Venda'].astype(float)
 if 'data' not in st.session_state:
     st.session_state['data'] = df_data
 
-st.title('Analise do preço de combustivél')
+st.title('Analise do preço de combustível')
 st.text("""
         Em cumprimento às determinações da Lei do Petróleo (Lei nº 9478/1997, artigo 8º), 
         a ANP acompanha os preços praticados por revendedores de combustíveis automotivos
